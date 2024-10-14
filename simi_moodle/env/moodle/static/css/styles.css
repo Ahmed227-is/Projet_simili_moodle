@@ -1,0 +1,59 @@
+/* CSS for Welcome Page */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #0066cc; /* Fond bleu */
+    display: flex;
+    justify-content: center;  /* Centrage horizontal */
+    align-items: center;      /* Centrage vertical */
+    height: 100vh;            /* Hauteur de la page */
+    color: #fff;
+}
+
+.welcome-container {
+    text-align: center;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.1); /* Légèrement transparent */
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header p {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+}
+
+.welcome-button {
+    margin-top: 20px;
+}
+
+.btn-primary, .btn-secondary {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 1.2em;
+    transition: 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #6e8efb;
+    margin-right: 10px;
+}
+
+.btn-secondary {
+    background-color: #a777e3;
+}
+
+.btn-primary:hover, .btn-secondary:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
