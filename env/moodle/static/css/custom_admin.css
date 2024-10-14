@@ -1,0 +1,120 @@
+/* Modifier la taille de la police globale */
+body {
+    font-size: 16px;
+    background-color: #1a1a1a; /* Couleur de fond sombre pour un contraste élevé */
+    color: #f1f1f1; /* Texte en blanc pour une meilleure lisibilité */
+    font-family: 'Arial', sans-serif; /* Police moderne et lisible */
+}
+
+/* Changer le header */
+#header {
+    background-color: #008cba; /* Bleu similaire à la bannière de la page d'accueil */
+    color: #ffcc00; /* Texte jaune vif */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Ajouter une ombre subtile au header */
+    transition: background-color 0.3s ease;
+}
+
+#header h1 {
+    font-size: 26px; /* Agrandir légèrement la police */
+    font-weight: bold;
+    color: #ffcc00; /* Jaune vif pour correspondre à ton logo */
+}
+
+/* Améliorer l'apparence des boutons */
+.button, .submit-row input {
+    background-color: #27ae60; /* Couleur verte comme demandé */
+    color: white;
+    padding: 10px 20px; /* Rendre les boutons un peu plus grands pour une meilleure visibilité */
+    border-radius: 5px;
+    border: none; /* Supprimer les bordures */
+    font-size: 14px; /* Taille de texte adaptée */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Effet de transition */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ajouter une ombre légère aux boutons */
+}
+
+.button:hover, .submit-row input:hover {
+    background-color: #218c52; /* Assombrir au survol */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Ombre plus marquée au survol */
+}
+
+/* Changer les bordures des tableaux */
+.module table {
+    border: 1px solid #008cba; /* Changer pour une bordure bleue pour une meilleure harmonie */
+    border-radius: 8px; /* Ajouter des coins arrondis aux tableaux */
+    width: 100%;
+    border-collapse: separate; /* Pour permettre d'avoir les bordures arrondies */
+    border-spacing: 0; /* Supprimer les écarts entre les cellules */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ajouter une ombre aux tableaux */
+    transition: transform 0.2s ease;
+}
+
+.module table:hover {
+    transform: translateY(-5px); /* Légère élévation au survol */
+}
+
+.module th, .module td {
+    padding: 12px 15px; /* Espacer les cellules pour plus de lisibilité */
+    text-align: left;
+    font-size: 18px; /* Agrandir la taille de la police */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.module th {
+    background-color: #2c3e50; /* Couleur de fond sombre pour les en-têtes */
+    color: #ffcc00; /* Texte jaune vif pour se démarquer */
+    border-top-left-radius: 8px; /* Arrondir les coins des en-têtes */
+    border-top-right-radius: 8px;
+}
+
+.module td {
+    background-color: #1a1a1a; /* Arrière-plan plus sombre pour les cellules */
+    color: #f1f1f1; /* Texte clair */
+    border-bottom: 1px solid #008cba; /* Ligne de séparation bleue entre les cellules */
+    border-radius: 8px; /* Ajouter des bords arrondis aux cellules */
+}
+
+.module td:hover {
+    background-color: #008cba; /* Fond bleu au survol */
+    color: #ffcc00; /* Texte jaune vif au survol */
+}
+
+/* Modifier la barre latérale */
+#nav-sidebar {
+    background-color: #008cba; /* Couleur bleue pour correspondre à la bannière */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre subtile pour un effet de profondeur */
+}
+
+#nav-sidebar .nav-item {
+    color: #ffcc00; /* Texte jaune pour correspondre à l'en-tête */
+    padding: 10px; /* Ajouter de l'espace pour plus de confort */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#nav-sidebar .nav-item:hover {
+    background-color: #005f8a; /* Couleur bleue plus foncée au survol */
+    color: white; /* Texte en blanc au survol */
+    transform: translateX(5px); /* Effet de glissement au survol */
+}
+
+/* Modifier les actions récentes */
+#recent-actions-module {
+    background-color: #1a1a1a; /* Fond sombre pour s'harmoniser avec le reste de l'interface */
+    color: #f1f1f1; /* Texte blanc */
+    padding: 10px;
+    border-radius: 8px; /* Arrondir les bords du module */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre subtile pour un effet moderne */
+}
+
+#recent-actions-module h2 {
+    color: #ffcc00; /* Titre en jaune vif */
+}
+
+#recent-actions-module ul li a {
+    color: #008cba; /* Liens en bleu */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#recent-actions-module ul li a:hover {
+    color: #ffcc00; /* Liens deviennent jaunes au survol */
+}
